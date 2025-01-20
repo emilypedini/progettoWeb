@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang ="it">
+<html lang="it">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,10 +14,12 @@
 <body>
     <header>
         <div class="container-fluid border p-2 border-3 border-brown text-brown d-flex align-items-center">
-        <img src="upload/logo.jpg" alt="Gelato" >
-            <h1 class="text-center flex-grow-1 ">Nuvole di Gelato</h1>
-        <img src="upload/icona1.png"  alt="account">
-        <img src="upload/menu2.png"  alt="menu">
+            <div class="logo-container">
+                <img id="logo" src="img/logo.png" alt="Gelato">
+            </div>
+            <h1 class="text-center flex-grow-1">Nuvole di Gelato</h1>
+            <img src="img/profilo.png" alt="account">
+            <img src="img/menu.png" alt="menu">
         </div>
     </header>
 </body>
