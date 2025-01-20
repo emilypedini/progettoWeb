@@ -1,0 +1,54 @@
+/* Stile base per tutte le immagini */
+body{
+    background-color: rgb(255,244,229);
+}
+
+header div h1{
+    font-family:"Lucida Handwriting",cursive;
+}
+
+img {
+    max-width: 100%; /* L'immagine non supera mai la larghezza del contenitore */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 50%; /* Rende l'immagine circolare, opzionale */
+    object-fit: cover; /* Garantisce che l'immagine riempia il contenitore senza deformarsi */
+}
+
+/* Stile specifico per l'immagine del logo */
+header img {
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 5vw; /* Utilizza unità relative alla larghezza della finestra */
+    max-width: 100%; /* L'immagine non supera mai il contenitore */
+    height: auto; /* Mantiene le proporzioni */
+    border: 3px solid #783F04; /* Bordo marrone */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ombra */
+    transition: transform 0.3s ease; /* Transizione per l'effetto hover */
+}
+
+/* Effetto hover */
+header img:hover {
+    transform: scale(1.1); /* Ingrandisce leggermente al passaggio del mouse */
+}
+
+/* Media query per schermi più piccoli */
+@media (max-width: 768px) {
+    header img {
+        width: 15vw; /* Adatta la larghezza per schermi piccoli */
+    }
+}
+
+/* Media query per schermi molto piccoli (es. smartphone) */
+@media (max-width: 480px) {
+    header img {
+        width: 10vw; /* Ancora più grande su schermi molto piccoli */
+    }
+}
+
+.text-brown {
+    color: #783F04; 
+}
+
+.border-brown{
+    border-color: #783F04 !important;
+}
